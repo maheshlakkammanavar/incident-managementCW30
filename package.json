@@ -6,6 +6,8 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@cap-js/audit-logging": "^0.8.0",
+    "@cap-js/change-tracking": "^1.0.6",
     "@sap/cds": "^7",
     "@sap/cds-hana": "^2",
     "@sap/xssec": "^3",
@@ -42,9 +44,7 @@
               ]
             },
             "alice": {
-              "roles": [
-                "support"
-              ]
+              "roles": ["support", "admin"]
             },
             "bob": {
               "roles": [
